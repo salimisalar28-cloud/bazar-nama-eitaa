@@ -6,8 +6,7 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 
 SERVIX_URL = "https://servix.cc/api/v1/assets"
-EITAA_URL = "https://eitaayar.ir/api/bot{}/sendMessage"
-
+EITAA_URL = "https://eitaayar.ir/api/{}/sendMessage"
 ASSET_CODES = {
     "دلار آمریکا": "USD_RLS",
     "یورو": "EUR_RLS",
